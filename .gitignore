@@ -1,0 +1,41 @@
+# Environment variables
+# Never commit your .env file!
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Streamlit
+.streamlit/
+
+# Machine Learning artifacts
+# Model and preprocessor files should not be in version control
+*.pkl
+*.joblib
+
+# Test and coverage reports
+.pytest_cache/
+.coverage

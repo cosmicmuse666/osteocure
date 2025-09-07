@@ -1,0 +1,8 @@
+pandas
+streamlit
+scikit-learn
+joblib
+langchain
+langchain-community
+openai
+numexpr
