@@ -11,3 +11,4 @@ langchain_community
 tavily-python
 agno
 ddgs
+langchain_google_genai
