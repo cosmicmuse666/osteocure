@@ -9,9 +9,14 @@
 
 ## ✨ Features
 
-- Interactive web interface built with Streamlit.
-- Predicts high or low risk of osteoporosis.
-- Displays the probability of high risk.
+- **Osteoporosis Risk Prediction**:
+  - Predicts high or low risk of osteoporosis based on health and lifestyle data.
+  - Displays the probability of high risk for a personalized assessment.
+- **AI-Powered Medical Image Analysis**:
+  - Upload bone-related medical images (X-rays, MRIs) for analysis by the "OsteoCure Vision" agent.
+  - Receive structured reports with key findings and cautious diagnostic assessments.
+  - Get patient-friendly explanations that translate complex medical jargon.
+  - Access evidence-based information and research context for findings.
 
 ## ⚙️ Setup and Installation
 
@@ -19,8 +24,8 @@ To run this application locally, please follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/cosmicmuse666/CureAI
-    cd CureAI
+    git clone https://github.com/cosmicmuse666/osteocure
+    cd osteocure
     ```
 
 2.  **Create and activate a virtual environment:**

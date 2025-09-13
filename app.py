@@ -2,8 +2,8 @@
 import streamlit as st
 import pandas as pd
 import joblib
-from prediction_agent import agent
 from medical_image_analysis_agent import analyze_medical_image
+from prediction_agent import agent_chat
 
 #------------------------------
 #environment variables
@@ -160,7 +160,6 @@ if prompt := st.chat_input("Ask me about your osteoporosis risk, prevention, or 
             patient_info = st.session_state.get("patient", {})
 
             # Use memory-enabled agent response
-            from prediction_agent import agent_chat  # import the new function
             response = agent_chat(prompt, patient_info)
 
             # Display assistant response

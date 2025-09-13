@@ -13,13 +13,7 @@ import os
 
 # Load LLM 
 load_dotenv()
-# Ensure GOOGLE_API_KEY is set
-# if "GOOGLE_API_KEY" not in os.environ:
-#     os.environ["GOOGLE_API_KEY"] = getpass.getpass("Enter your Google AI API key: ")
 
-# Ensure OPENAI_API_KEY is set
-# if "OPENAI_API_KEY" not in os.environ:
-#     raise ValueError("⚠️ Missing OPENAI_API_KEY. Please set it in your .env or Streamlit secrets.")
 
 # Initialize LLM
 
@@ -62,26 +56,7 @@ prediction_tool = Tool(
 # math_tool = LLMMathChain.from_llm(llm=llm)
 
 # -------------------------
-# Tool 3: Tavily Search Tool (using official tavily package)
-# -------------------------
-# from tavily import TavilyClient
-# from langchain.agents import Tool
 
-# import os
-# TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
-# tavily_client = TavilyClient(api_key=TAVILY_API_KEY)
-
-# def tavily_search(query):
-#     """Search the web using Tavily and return a summary."""
-#     result = tavily_client.search(query)
-#     # Tavily returns a dict with 'answer' and 'sources'
-#     return result.get("answer", "")
-
-# tavily_search_tool = Tool(
-#     name="Tavily Web Search",
-#     func=tavily_search,
-#     description="Searches the web for up-to-date, reliable information and summarizes the findings."
-# )
 
 # -------------------------
 # Tool 4: DuckDuckGo Search Tool
