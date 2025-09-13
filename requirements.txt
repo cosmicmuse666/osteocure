@@ -12,3 +12,5 @@ tavily-python
 agno
 ddgs
 langchain-google-genai
+google-genai
+duckduckgo_search
