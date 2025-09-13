@@ -6,3 +6,8 @@ langchain
 langchain-community
 openai
 numexpr
+python-dotenv
+langchain_community
+tavily-python
+agno
+ddgs

@@ -1,8 +1,11 @@
-# 🦴 Osteoporosis Risk Prediction App
+# 🦴 OsteoCureAI
 
-This project is a Streamlit web application that predicts the risk of osteoporosis based on user-provided health and lifestyle information.
+**OsteoCureAI** is an innovative Streamlit web application designed to provide insights into bone health and osteoporosis risk. This project integrates two powerful AI-driven features:
 
-The prediction is made using a pre-trained machine learning model.
+1.  **Risk Prediction Model**: Utilizes a machine learning model to predict the risk of osteoporosis based on user-provided health and lifestyle data, offering a personalized risk assessment.
+2.  **AI Medical Image Analysis ("OsteoCure Vision")**: An advanced AI assistant that analyzes bone-related medical images (like X-rays and MRIs) to identify potential indicators of bone health issues. It provides patient-friendly explanations and evidence-based information, bridging the gap between clinical reports and patient understanding.
+
+> **Note**: This tool is for informational purposes only and is not a substitute for professional medical advice.
 
 ## ✨ Features
 
